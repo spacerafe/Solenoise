@@ -5,7 +5,10 @@ Solenoise was a project I made over the summer of 2016 that could robotically pl
 Part of this project required a song to be stored on imbedded hardware, and to be playable by robot fingers. 
 
 This program converts:
+<p style="text-align: center;">
 midi --> csv
-csv  --> .h
-.h   --> compressed .h
 
+csv  --> .h
+
+.h   --> compressed .h
+</p>
