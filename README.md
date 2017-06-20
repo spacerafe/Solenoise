@@ -6,17 +6,15 @@ Part of this project required a song to be stored on imbedded hardware, and to b
 
 This program converts:
 
-midi --> csv
-
-csv  --> .h
-
-.h   --> compressed .h
++ midi --> csv
++ csv  --> .h
++ .h   --> compressed .h
 
 There is a batch script that performs all of these tasks and places each file that it creates in it's respective folder.
 
 ### Convert all on Windows
 
 1. Place music file to convert in folder titled `midi/`
-2. Run `MIDItoCompH.bat`
+2. Run [`MIDItoCompH.bat`](https://github.com/spacerafe/Solenoise/blob/master/MIDItoCompH.bat)
 3. When Prompted, enter name of file without .mid extension
 4. File will be converted. Csv will reside in `csv/`. h file will be in `H/`. Compressed h file will be in `compressed_h/`.
